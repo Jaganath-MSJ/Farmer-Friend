@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("../images/SignUp_Background.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.register>h1 {
+    text-align: center;
+    color: #1c8adb;
+    font-size: 35px;
+    margin-left: 50px;
+}
+
+.container {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: -20px;
+}
+
+label, button, .container>p>b {
+    font-size: 18px;
+}
+
+input[type=text], input[type=password] {
+    width: 20%;
+    padding: 12px 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+label[for="uname"] {
+    margin-left: -10px;
+}
+label[for="phone"] {
+    margin-left: -25px;
+}
+label[for="re-psw"] {
+    margin-left: -70px;
+}
+
+.password {
+    margin-left: -12px;
+}
+
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 5px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+a{
+    color: blue;
+    font-size: 18px;
+}
+a:hover {
+    color: black;
+}
