@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <script src="assets/jquery/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="styles/login.css">
+    <link rel="stylesheet" href="styles/nav.css">
+</head>
+<body>
+  <nav class="navBar">
+        <img src="images/logo.png" alt="logo" href="home.html">
+        <div class="navMenu">
+            <a href="home.html">Home</a>
+            <a href="#">Product</a>
+            <a href="#">Weather</a>
+            <a href="#">Guidlines</a>
+            <a href="#">Search</a>
+        </div>
+        <div class="navAccount">
+            <a href="#"><span class="glyphicon glyphicon-user"></span></a>
+            <a href="#"><span class="glyphicon glyphicon-log-out"></span></a>
+        </div>
+  </nav>
+  
+  <div class='Total'>
+    <form class="login" action="home.html" method="post">
+      <div class="imgcontainer">
+        <img src="images/logo.png" alt="Avatar" class="avatar" width="200">
+      </div>
+      <div class="container">
+        <p><label for="uname"><b>User Id</b></label>
+        <input type="text" placeholder="Enter User Id" name="uname" required></p>
+        <p class="password"><label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required></p>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+        <p><button type="submit">Login</button></p>
+        <p><b>Don't Have an Account? </b><a href="register.html">Register</a></p>
+      </div>
+    <form>
+  </div>
+</body>
+</html>

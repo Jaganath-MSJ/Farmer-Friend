@@ -1,0 +1,22 @@
+.carousel-inner>.item>img {
+    height: 55.3em;
+} 
+
+.carousel-header {
+    position: absolute;
+    text-align: center;
+    top: 13em;
+    left: 10em;
+}
+
+.carousel-header>h1 {
+    color: red;
+    font-size: 40px;
+}
+
+.carousel-header>h4 {
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 40px;
+}
